@@ -1,0 +1,5 @@
+- rule: Unauthorized Process
+  desc: Detect unauthorized processes.
+  condition: proc.name != "allowed_process"
+  output: "Unauthorized process detected: %proc.name"
+  priority: WARNING
