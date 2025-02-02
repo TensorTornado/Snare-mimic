@@ -1,0 +1,17 @@
+# Ignore Python virtual environments
+venv/
+__pycache__/
+
+# Ignore Docker data and logs
+*.log
+*.pid
+
+# Ignore system-specific files
+.DS_Store
+
+# Ignore any IDE-specific config files
+.idea/
+.vscode/
+
+# Ignore AWS credentials if any
+.aws/
